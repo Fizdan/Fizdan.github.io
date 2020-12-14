@@ -2706,3 +2706,10 @@ sub, sup {
     margin: 0;
     color: #fff;
 }
+
+.iconCustom {
+    height: 20px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+}

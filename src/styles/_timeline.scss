@@ -1,6 +1,12 @@
 $primary-color: #FF6B6B;
 $primary-color-hover: scale-color($primary-color, $lightness: 32%);
-
+a {
+    color: $primary-color;
+    &:hover {
+        color: $primary-color-hover;
+        text-decoration: none;
+    }
+}
 .example-header {
     background: #3D4351;
     color: #FFF;

@@ -2710,7 +2710,18 @@ sub, sup {
 /*==================================
       TIMELINE
   ==================================*/
-
+  h1, h2, h3, h4, h5, h6 {
+    color: #3D4351;
+    margin-top: 0;
+  }
+  
+  a {
+    color: #FF6B6B;
+  }
+  a:hover {
+    color: #ff9a9a;
+    text-decoration: none;
+  }
 .example-header {
     background: #3D4351;
     color: #FFF;
